@@ -4,7 +4,7 @@ plugins {
 tasks.register<Zip>("pack-zip") {
 
     // Name of the output zip file
-    archiveFileName.set("VineriumFarmPack.zip")
+    archiveFileName.set("AsureFarmPack.zip")
 
     // Output directory where the zip file will be saved
     destinationDirectory.set(layout.buildDirectory.dir("out"))
